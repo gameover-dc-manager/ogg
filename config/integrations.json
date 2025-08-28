@@ -1,0 +1,44 @@
+
+{
+  "available_integrations": {
+    "github": {
+      "name": "GitHub",
+      "description": "Repository notifications and updates",
+      "webhook_url": "/webhook/github",
+      "events": ["push", "pull_request", "issues", "release"],
+      "required_config": ["repository", "token", "channel"]
+    },
+    "twitch": {
+      "name": "Twitch",
+      "description": "Stream notifications and chat relay",
+      "api_url": "https://api.twitch.tv/helix",
+      "events": ["stream_online", "stream_offline", "follow", "subscriber"],
+      "required_config": ["streamer", "client_id", "client_secret", "channel"]
+    },
+    "youtube": {
+      "name": "YouTube",
+      "description": "Video and channel notifications",
+      "api_url": "https://www.googleapis.com/youtube/v3",
+      "events": ["video_upload", "live_stream", "subscriber", "community_post"],
+      "required_config": ["channel_id", "api_key", "notification_channel"]
+    },
+    "spotify": {
+      "name": "Spotify",
+      "description": "Music sharing and now playing",
+      "api_url": "https://api.spotify.com/v1",
+      "events": ["now_playing", "playlist_update", "new_release"],
+      "required_config": ["user_id", "client_id", "client_secret", "channel"]
+    },
+    "reddit": {
+      "name": "Reddit",
+      "description": "Subreddit feeds and monitoring",
+      "api_url": "https://www.reddit.com/r",
+      "events": ["hot_post", "new_post", "comment", "trending"],
+      "required_config": ["subreddit", "post_limit", "channel"]
+    }
+  },
+  "webhook_endpoints": {
+    "github": "/webhook/github/{guild_id}",
+    "custom": "/webhook/custom/{guild_id}/{integration_id}"
+  }
+}

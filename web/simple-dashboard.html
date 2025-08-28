@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Dashboard - Simple Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            color: #fff;
+        }
+
+        .dashboard-container {
+            background: rgba(44, 47, 51, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .login-container {
+            max-width: 400px;
+            margin: 100px auto;
+        }
+
+        .form-control {
+            background: rgba(35, 39, 42, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
+        }
+
+        .form-control:focus {
+            background: rgba(35, 39, 42, 0.9);
+            border-color: #7289da;
+            color: #fff;
+            box-shadow: 0 0 10px rgba(114, 137, 218, 0.3);
+        }
+
+        .btn-primary {
+            background: #7289da;
+            border-color: #7289da;
+        }
+
+        .btn-primary:hover {
+            background: #5865f2;
+            border-color: #5865f2;
+        }
+    </style>
+</head>
+<body>
+    <!-- Login Form -->
+    <div id="loginSection" class="login-container">
+        <div class="dashboard-container p-4">
+            <div class="text-center mb-4">
+                <h2><i class="fas fa-shield-alt me-2"></i>Dashboard Login</h2>
+                <p class="text-muted">Enter your server credentials</p>
+            </div>
+            
+            <form id="loginForm">
+                <div class="mb-3">
+                    <label for="serverId" class="form-label">Server ID</label>
+                    <input type="text" class="form-control" id="serverId" placeholder="Enter server ID" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+                </div>
+                
+                <button type="submit" class="btn btn-primary w-100">
+                    <i class="fas fa-sign-in-alt me-2"></i>Login
+                </button>
+            </form>
+            
+            <div id="errorMessage" class="alert alert-danger mt-3" style="display: none;"></div>
+        </div>
+    </div>
+
+    <!-- Dashboard -->
+    <div id="dashboardSection" style="display: none;">
+        <div class="container-fluid py-4">
+            <!-- Header -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="dashboard-container p-4">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h1><i class="fas fa-shield-alt me-2"></i>Server Dashboard</h1>
+                            <button onclick="logout()" class="btn btn-outline-light">
+                                <i class="fas fa-sign-out-alt me-2"></i>Logout
+                            </button>
+                        </div>
+                        <p class="text-muted mb-0">Server: <span id="serverName">Loading...</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="row mb-4">
+                <div class="col-md-3">
+                    <div class="dashboard-container p-3 text-center">
+                        <h3 id="memberCount">-</h3>
+                        <p class="mb-0">Members</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="dashboard-container p-3 text-center">
+                        <h3 id="warningCount">-</h3>
+                        <p class="mb-0">Warnings</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="dashboard-container p-3 text-center">
+                        <h3 id="captchaCount">-</h3>
+                        <p class="mb-0">Verified Users</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="dashboard-container p-3 text-center">
+                        <h3 id="botStatus">Online</h3>
+                        <p class="mb-0">Bot Status</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Warnings -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="dashboard-container p-4">
+                        <h3 class="mb-3">Recent Warnings</h3>
+                        <div class="table-responsive">
+                            <table class="table table-dark">
+                                <thead>
+                                    <tr>
+                                        <th>User</th>
+                                        <th>Reason</th>
+                                        <th>Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="warningsTable">
+                                    <tr>
+                                        <td colspan="3" class="text-center">Loading...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentServer = null;
+
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const serverId = document.getElementById('serverId').value;
+            const password = document.getElementById('password').value;
+            
+            try {
+                const response = await fetch('/api/simple-auth', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ serverId, password })
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    currentServer = data.server;
+                    showDashboard();
+                    loadDashboardData();
+                } else {
+                    showError(data.error || 'Login failed');
+                }
+            } catch (error) {
+                showError('Connection error. Please try again.');
+            }
+        });
+
+        function showError(message) {
+            const errorDiv = document.getElementById('errorMessage');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+
+        function showDashboard() {
+            document.getElementById('loginSection').style.display = 'none';
+            document.getElementById('dashboardSection').style.display = 'block';
+            document.getElementById('serverName').textContent = currentServer.name;
+        }
+
+        function logout() {
+            currentServer = null;
+            document.getElementById('loginSection').style.display = 'block';
+            document.getElementById('dashboardSection').style.display = 'none';
+            document.getElementById('loginForm').reset();
+            document.getElementById('errorMessage').style.display = 'none';
+        }
+
+        async function loadDashboardData() {
+            if (!currentServer) return;
+            
+            try {
+                const response = await fetch(`/api/simple-dashboard/${currentServer.id}`);
+                const data = await response.json();
+                
+                document.getElementById('memberCount').textContent = data.memberCount || 0;
+                document.getElementById('warningCount').textContent = data.warningCount || 0;
+                document.getElementById('captchaCount').textContent = data.captchaCount || 0;
+                
+                // Load warnings table
+                const tbody = document.getElementById('warningsTable');
+                tbody.innerHTML = '';
+                
+                if (data.warnings && data.warnings.length > 0) {
+                    data.warnings.slice(0, 10).forEach(warning => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${warning.username || 'Unknown'}</td>
+                            <td>${warning.reason}</td>
+                            <td>${new Date(warning.timestamp).toLocaleDateString()}</td>
+                        `;
+                        tbody.appendChild(row);
+                    });
+                } else {
+                    tbody.innerHTML = '<tr><td colspan="3" class="text-center">No warnings found</td></tr>';
+                }
+            } catch (error) {
+                console.error('Failed to load dashboard data:', error);
+            }
+        }
+
+        // Auto refresh every 30 seconds
+        setInterval(() => {
+            if (currentServer) {
+                loadDashboardData();
+            }
+        }, 30000);
+    </script>
+</body>
+</html>

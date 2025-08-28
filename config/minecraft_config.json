@@ -1,0 +1,13 @@
+
+{
+    "enabled": false,
+    "servers": {},
+    "chatBridge": {
+        "enabled": false,
+        "discordToMinecraft": true,
+        "minecraftToDiscord": true,
+        "formatDiscordMessages": true
+    },
+    "statusChannel": null,
+    "updateInterval": 60000
+}

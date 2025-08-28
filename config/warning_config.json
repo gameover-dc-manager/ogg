@@ -1,0 +1,94 @@
+{
+  "1406951898761920512": {
+    "thresholds": {
+      "timeout": 3,
+      "kick": 5,
+      "ban": 7
+    },
+    "autoPunishment": {
+      "enabled": true,
+      "timeoutDuration": {
+        "minor": 600000,
+        "moderate": 3600000,
+        "severe": 21600000
+      }
+    },
+    "limits": {
+      "maxWarningsPerUser": 50,
+      "defaultExpiry": 30
+    },
+    "customPunishments": {
+      "enabled": true,
+      "allowedRoles": []
+    }
+  },
+  "1373953154550599753": {
+    "thresholds": {
+      "timeout": 3,
+      "kick": 5,
+      "ban": 7
+    },
+    "autoPunishment": {
+      "enabled": true,
+      "timeoutDuration": {
+        "minor": 600000,
+        "moderate": 3600000,
+        "severe": 21600000
+      }
+    },
+    "limits": {
+      "maxWarningsPerUser": 50,
+      "defaultExpiry": 30
+    },
+    "customPunishments": {
+      "enabled": true,
+      "allowedRoles": []
+    }
+  },
+  "1407001608142716958": {
+    "thresholds": {
+      "timeout": 3,
+      "kick": 5,
+      "ban": 7
+    },
+    "autoPunishment": {
+      "enabled": true,
+      "timeoutDuration": {
+        "minor": 600000,
+        "moderate": 3600000,
+        "severe": 21600000
+      }
+    },
+    "limits": {
+      "maxWarningsPerUser": 50,
+      "defaultExpiry": 30
+    },
+    "customPunishments": {
+      "enabled": true,
+      "allowedRoles": []
+    }
+  },
+  "1410110973855006763": {
+    "thresholds": {
+      "timeout": 3,
+      "kick": 5,
+      "ban": 7
+    },
+    "autoPunishment": {
+      "enabled": true,
+      "timeoutDuration": {
+        "minor": 600000,
+        "moderate": 3600000,
+        "severe": 21600000
+      }
+    },
+    "limits": {
+      "maxWarningsPerUser": 50,
+      "defaultExpiry": 30
+    },
+    "customPunishments": {
+      "enabled": true,
+      "allowedRoles": []
+    }
+  }
+}

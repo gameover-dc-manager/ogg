@@ -1,0 +1,73 @@
+
+{
+  "templates": {
+    "welcome_automation": {
+      "name": "Welcome New Members",
+      "description": "Automatically welcome new members and assign roles",
+      "trigger": "member_join",
+      "actions": [
+        {
+          "type": "send_message",
+          "channel": "welcome",
+          "message": "Welcome {user} to our server! 🎉"
+        },
+        {
+          "type": "add_role",
+          "role": "Member",
+          "delay": 5000
+        }
+      ],
+      "conditions": [
+        {
+          "field": "account_age",
+          "operator": "greater_than",
+          "value": 86400000
+        }
+      ]
+    },
+    "auto_moderation": {
+      "name": "Content Moderation",
+      "description": "Automatically moderate inappropriate content",
+      "trigger": "message_sent",
+      "actions": [
+        {
+          "type": "timeout_user",
+          "duration": 600000,
+          "reason": "Inappropriate content"
+        },
+        {
+          "type": "send_message",
+          "channel": "mod_log",
+          "message": "User {user} was timed out for inappropriate content"
+        }
+      ],
+      "conditions": [
+        {
+          "field": "toxicity_score",
+          "operator": "greater_than",
+          "value": 0.8
+        }
+      ]
+    },
+    "role_management": {
+      "name": "Automatic Role Assignment",
+      "description": "Assign roles based on user activity",
+      "trigger": "scheduled",
+      "schedule": "daily",
+      "actions": [
+        {
+          "type": "add_role",
+          "role": "Active Member",
+          "target": "active_users"
+        }
+      ],
+      "conditions": [
+        {
+          "field": "message_count",
+          "operator": "greater_than",
+          "value": 100
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+
+{
+  "default": {
+    "autoModeration": {
+      "enabled": true,
+      "sensitivity": "medium",
+      "actions": {
+        "toxicity_threshold": 0.7,
+        "spam_threshold": 0.8,
+        "auto_timeout": true,
+        "auto_delete": true,
+        "auto_warn": true
+      },
+      "whitelist": {
+        "roles": [],
+        "users": [],
+        "channels": []
+      },
+      "filters": {
+        "toxicity": true,
+        "spam": true,
+        "links": true,
+        "caps": true,
+        "emoji_spam": true,
+        "mention_spam": true
+      }
+    },
+    "smartNotifications": {
+      "enabled": true,
+      "priority_system": true,
+      "context_awareness": true,
+      "spam_reduction": true,
+      "delivery_optimization": true
+    },
+    "workflows": {
+      "enabled": true,
+      "max_workflows": 50,
+      "max_actions_per_workflow": 20,
+      "execution_timeout": 30000
+    },
+    "integrations": {
+      "enabled": true,
+      "max_integrations": 10,
+      "rate_limit": 100,
+      "webhook_timeout": 10000
+    }
+  }
+}

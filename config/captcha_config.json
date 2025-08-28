@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "verificationChannelId": "1407001608142716961",
+  "unverifiedRoleId": "1407001661817229484",
+  "verifiedRoleId": "1407001608142716958",
+  "timeoutMinutes": 2,
+  "maxAttempts": 10,
+  "difficulty": "easy",
+  "requireManualReview": true,
+  "logVerifications": true,
+  "enablePatternDetection": true,
+  "enableSuspiciousActivityTracking": true,
+  "enableIPTracking": true,
+  "maxDailyAttempts": 10,
+  "banDurationHours": 24,
+  "enableSmartCaptcha": true,
+  "customMessages": {
+    "welcome": "Welcome! Complete verification to access the server.",
+    "timeout": "Verification expired. Contact moderators for assistance.",
+    "failed": "Verification failed. Please try again.",
+    "banned": "Too many failed attempts. You've been temporarily restricted."
+  },
+  "1373953154550599753": {
+    "enabled": false,
+    "channel_id": null,
+    "role_id": null,
+    "welcome_message": "Welcome! Please complete the verification to access the server."
+  }
+}

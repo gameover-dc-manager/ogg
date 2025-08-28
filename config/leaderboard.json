@@ -1,0 +1,1757 @@
+{
+  "1373953154550599753": {
+    "1359800833297875064": {
+      "xp": 162,
+      "level": 2,
+      "messages": 14,
+      "textMessages": 14,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1755717181619,
+      "dailyMessages": {
+        "Mon Aug 04 2025": {
+          "total": 9,
+          "text": 9,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Tue Aug 05 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Wed Aug 06 2025": {
+          "total": 2,
+          "text": 2,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Wed Aug 20 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 12,
+          "text": 12,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Sun Aug 17 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 13,
+          "text": 13,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "769040767267504128": {
+      "xp": 1395,
+      "level": 14,
+      "messages": 122,
+      "textMessages": 112,
+      "mediaMessages": 0,
+      "linksShared": 1,
+      "commandsUsed": 9,
+      "reactionsGiven": 0,
+      "lastMessage": 1755717993793,
+      "dailyMessages": {
+        "Mon Aug 04 2025": {
+          "total": 23,
+          "text": 16,
+          "media": 0,
+          "links": 0,
+          "commands": 7,
+          "reactions": 0
+        },
+        "Tue Aug 05 2025": {
+          "total": 26,
+          "text": 24,
+          "media": 0,
+          "links": 0,
+          "commands": 2,
+          "reactions": 0
+        },
+        "Wed Aug 06 2025": {
+          "total": 29,
+          "text": 29,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Sat Aug 09 2025": {
+          "total": 9,
+          "text": 8,
+          "media": 0,
+          "links": 1,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Wed Aug 20 2025": {
+          "total": 35,
+          "text": 35,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 87,
+          "text": 77,
+          "media": 0,
+          "links": 1,
+          "commands": 9,
+          "reactions": 0
+        },
+        "Sun Aug 17 2025": {
+          "total": 35,
+          "text": 35,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 122,
+          "text": 112,
+          "media": 0,
+          "links": 1,
+          "commands": 9,
+          "reactions": 0
+        }
+      }
+    },
+    "1092856861931360436": {
+      "xp": 396,
+      "level": 4,
+      "messages": 31,
+      "textMessages": 26,
+      "mediaMessages": 0,
+      "linksShared": 5,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754719404124,
+      "dailyMessages": {
+        "Tue Aug 05 2025": {
+          "total": 14,
+          "text": 12,
+          "media": 0,
+          "links": 2,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Mon Aug 04 2025": {
+          "total": 11,
+          "text": 10,
+          "media": 0,
+          "links": 1,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Sat Aug 09 2025": {
+          "total": 6,
+          "text": 4,
+          "media": 0,
+          "links": 2,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 31,
+          "text": 26,
+          "media": 0,
+          "links": 5,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 31,
+          "text": 26,
+          "media": 0,
+          "links": 5,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1341087835498741771": {
+      "xp": 202,
+      "level": 3,
+      "messages": 15,
+      "textMessages": 14,
+      "mediaMessages": 1,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754344573233,
+      "dailyMessages": {
+        "Mon Aug 04 2025": {
+          "total": 15,
+          "text": 14,
+          "media": 1,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 15,
+          "text": 14,
+          "media": 1,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 15,
+          "text": 14,
+          "media": 1,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1134653545497493575": {
+      "xp": 36,
+      "level": 1,
+      "messages": 5,
+      "textMessages": 5,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754424833161,
+      "dailyMessages": {
+        "Tue Aug 05 2025": {
+          "total": 5,
+          "text": 5,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 5,
+          "text": 5,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 5,
+          "text": 5,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1360359628260511817": {
+      "xp": 349,
+      "level": 4,
+      "messages": 39,
+      "textMessages": 36,
+      "mediaMessages": 0,
+      "linksShared": 3,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1755718027325,
+      "dailyMessages": {
+        "Wed Aug 06 2025": {
+          "total": 3,
+          "text": 3,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Wed Aug 20 2025": {
+          "total": 36,
+          "text": 33,
+          "media": 0,
+          "links": 3,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 3,
+          "text": 3,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Sun Aug 17 2025": {
+          "total": 36,
+          "text": 33,
+          "media": 0,
+          "links": 3,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 39,
+          "text": 36,
+          "media": 0,
+          "links": 3,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1120127582902427658": {
+      "xp": 63,
+      "level": 1,
+      "messages": 6,
+      "textMessages": 6,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754492808232,
+      "dailyMessages": {
+        "Wed Aug 06 2025": {
+          "total": 6,
+          "text": 6,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 6,
+          "text": 6,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 6,
+          "text": 6,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "879937756409778267": {
+      "xp": 10,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754492369588,
+      "dailyMessages": {
+        "Wed Aug 06 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "665540761839861780": {
+      "xp": 44,
+      "level": 1,
+      "messages": 5,
+      "textMessages": 4,
+      "mediaMessages": 1,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754694351656,
+      "dailyMessages": {
+        "Sat Aug 09 2025": {
+          "total": 5,
+          "text": 4,
+          "media": 1,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 5,
+          "text": 4,
+          "media": 1,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 5,
+          "text": 4,
+          "media": 1,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1076115679817765058": {
+      "xp": 13,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754719260613,
+      "dailyMessages": {
+        "Sat Aug 09 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    }
+  },
+  "1361297523591086252": {
+    "1394517833563504690": {
+      "xp": 186,
+      "level": 2,
+      "messages": 17,
+      "textMessages": 17,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754405856837,
+      "dailyMessages": {
+        "Mon Aug 04 2025": {
+          "total": 16,
+          "text": 16,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Tue Aug 05 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 17,
+          "text": 17,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 17,
+          "text": 17,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "769040767267504128": {
+      "xp": 65,
+      "level": 1,
+      "messages": 5,
+      "textMessages": 5,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1755795682657,
+      "dailyMessages": {
+        "Mon Aug 04 2025": {
+          "total": 2,
+          "text": 2,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Fri Aug 08 2025": {
+          "total": 2,
+          "text": 2,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Thu Aug 21 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 4,
+          "text": 4,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Sun Aug 17 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 5,
+          "text": 5,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1256186476161531925": {
+      "xp": 49,
+      "level": 1,
+      "messages": 4,
+      "textMessages": 4,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754291263252,
+      "dailyMessages": {
+        "Mon Aug 04 2025": {
+          "total": 4,
+          "text": 4,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 4,
+          "text": 4,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 4,
+          "text": 4,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1380754837284720662": {
+      "xp": 33,
+      "level": 1,
+      "messages": 2,
+      "textMessages": 2,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754406740947,
+      "dailyMessages": {
+        "Mon Aug 04 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Tue Aug 05 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 2,
+          "text": 2,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 2,
+          "text": 2,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1358125355583541390": {
+      "xp": 27,
+      "level": 1,
+      "messages": 4,
+      "textMessages": 4,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1755074527233,
+      "dailyMessages": {
+        "Mon Aug 04 2025": {
+          "total": 3,
+          "text": 3,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Wed Aug 13 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 3,
+          "text": 3,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Sun Aug 10 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 4,
+          "text": 4,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "776406754510372866": {
+      "xp": 55,
+      "level": 1,
+      "messages": 5,
+      "textMessages": 4,
+      "mediaMessages": 1,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754304748816,
+      "dailyMessages": {
+        "Mon Aug 04 2025": {
+          "total": 5,
+          "text": 4,
+          "media": 1,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 5,
+          "text": 4,
+          "media": 1,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 5,
+          "text": 4,
+          "media": 1,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1082748293936840734": {
+      "xp": 16,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754308695558,
+      "dailyMessages": {
+        "Mon Aug 04 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1320296415716446219": {
+      "xp": 18,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754405494986,
+      "dailyMessages": {
+        "Tue Aug 05 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1168931233665921038": {
+      "xp": 14,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754412532719,
+      "dailyMessages": {
+        "Tue Aug 05 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1400373434847858709": {
+      "xp": 10,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754412994208,
+      "dailyMessages": {
+        "Tue Aug 05 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1044120735586734161": {
+      "xp": 9,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754463924166,
+      "dailyMessages": {
+        "Wed Aug 06 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1381663188508217384": {
+      "xp": 14,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754496526982,
+      "dailyMessages": {
+        "Wed Aug 06 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "879937756409778267": {
+      "xp": 14,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754496533826,
+      "dailyMessages": {
+        "Wed Aug 06 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1132279039822921738": {
+      "xp": 11,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754668372867,
+      "dailyMessages": {
+        "Fri Aug 08 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1395387866523373648": {
+      "xp": 13,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754720778605,
+      "dailyMessages": {
+        "Sat Aug 09 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1175643430731403267": {
+      "xp": 9,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1755074764400,
+      "dailyMessages": {
+        "Wed Aug 13 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 10 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1383002071346708532": {
+      "xp": 13,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1755074775261,
+      "dailyMessages": {
+        "Wed Aug 13 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 10 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    }
+  },
+  "1389677910721560659": {
+    "769040767267504128": {
+      "xp": 115,
+      "level": 2,
+      "messages": 12,
+      "textMessages": 11,
+      "mediaMessages": 0,
+      "linksShared": 1,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1755717542481,
+      "dailyMessages": {
+        "Mon Aug 04 2025": {
+          "total": 8,
+          "text": 8,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Tue Aug 05 2025": {
+          "total": 3,
+          "text": 3,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Wed Aug 20 2025": {
+          "total": 1,
+          "text": 0,
+          "media": 0,
+          "links": 1,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 11,
+          "text": 11,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Sun Aug 17 2025": {
+          "total": 1,
+          "text": 0,
+          "media": 0,
+          "links": 1,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 12,
+          "text": 11,
+          "media": 0,
+          "links": 1,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1381663188508217384": {
+      "xp": 9,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754327758845,
+      "dailyMessages": {
+        "Mon Aug 04 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    }
+  },
+  "769042129983897610": {
+    "769040767267504128": {
+      "xp": 297,
+      "level": 3,
+      "messages": 24,
+      "textMessages": 24,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754337513675,
+      "dailyMessages": {
+        "Mon Aug 04 2025": {
+          "total": 14,
+          "text": 14,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Tue Aug 05 2025": {
+          "total": 10,
+          "text": 10,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 24,
+          "text": 24,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 24,
+          "text": 24,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1201550794487500994": {
+      "xp": 37,
+      "level": 1,
+      "messages": 5,
+      "textMessages": 5,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754329067769,
+      "dailyMessages": {
+        "Mon Aug 04 2025": {
+          "total": 5,
+          "text": 5,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 5,
+          "text": 5,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 5,
+          "text": 5,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1356141190826954823": {
+      "xp": 40,
+      "level": 1,
+      "messages": 3,
+      "textMessages": 3,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754336412355,
+      "dailyMessages": {
+        "Tue Aug 05 2025": {
+          "total": 3,
+          "text": 3,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 3,
+          "text": 3,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 3,
+          "text": 3,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    }
+  },
+  "1358312390005100635": {
+    "769040767267504128": {
+      "xp": 13,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1754420564872,
+      "dailyMessages": {
+        "Tue Aug 05 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 03 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    }
+  },
+  "1406951898761920512": {
+    "866216883958710272": {
+      "xp": 139,
+      "level": 2,
+      "messages": 15,
+      "textMessages": 15,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1755791105572,
+      "dailyMessages": {
+        "Tue Aug 19 2025": {
+          "total": 11,
+          "text": 11,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Thu Aug 21 2025": {
+          "total": 4,
+          "text": 4,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 17 2025": {
+          "total": 15,
+          "text": 15,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 15,
+          "text": 15,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "769040767267504128": {
+      "xp": 638,
+      "level": 7,
+      "messages": 68,
+      "textMessages": 68,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1755799978515,
+      "dailyMessages": {
+        "Tue Aug 19 2025": {
+          "total": 10,
+          "text": 10,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Wed Aug 20 2025": {
+          "total": 25,
+          "text": 25,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Thu Aug 21 2025": {
+          "total": 33,
+          "text": 33,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 17 2025": {
+          "total": 68,
+          "text": 68,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 68,
+          "text": 68,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    },
+    "1132339434252140554": {
+      "xp": 490,
+      "level": 5,
+      "messages": 52,
+      "textMessages": 52,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1755796556145,
+      "dailyMessages": {
+        "Wed Aug 20 2025": {
+          "total": 9,
+          "text": 9,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        },
+        "Thu Aug 21 2025": {
+          "total": 43,
+          "text": 43,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 17 2025": {
+          "total": 52,
+          "text": 52,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 52,
+          "text": 52,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    }
+  },
+  "1407001608142716958": {
+    "1359800833297875064": {
+      "xp": 6,
+      "level": 1,
+      "messages": 1,
+      "textMessages": 1,
+      "mediaMessages": 0,
+      "linksShared": 0,
+      "commandsUsed": 0,
+      "reactionsGiven": 0,
+      "lastMessage": 1755618803567,
+      "dailyMessages": {
+        "Tue Aug 19 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "weeklyMessages": {
+        "Sun Aug 17 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      },
+      "monthlyMessages": {
+        "Fri Aug 01 2025": {
+          "total": 1,
+          "text": 1,
+          "media": 0,
+          "links": 0,
+          "commands": 0,
+          "reactions": 0
+        }
+      }
+    }
+  }
+}

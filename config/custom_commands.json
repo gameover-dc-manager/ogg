@@ -1,0 +1,32 @@
+{
+  "1407001608142716958": {
+    "roll": {
+      "name": "roll",
+      "response": "🎲 {user} rolled: {random:1-6}",
+      "description": "random number custom command",
+      "useEmbed": true,
+      "color": "#FF0000",
+      "permissions": "everyone",
+      "enabled": true,
+      "createdBy": "769040767267504128",
+      "createdAt": 1756057420782,
+      "uses": 1
+    }
+  },
+  "1406951898761920512": {
+    "bruh": {
+      "name": "bruh",
+      "response": "what?",
+      "description": "use this for what?",
+      "useEmbed": true,
+      "color": "#0099FF",
+      "permissions": "everyone",
+      "commandType": "both",
+      "prefix": ".",
+      "enabled": true,
+      "createdBy": "769040767267504128",
+      "createdAt": 1756120439076,
+      "uses": 2
+    }
+  }
+}

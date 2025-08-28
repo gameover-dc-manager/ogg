@@ -1,0 +1,264 @@
+{
+  "actions": [
+    {
+      "id": "1755718477148_b1wl5v3un",
+      "guildId": "1373953154550599753",
+      "userId": "1359800833297875064",
+      "action": "warning_appeal_button_sent",
+      "data": {
+        "warningId": "5DKSJNSO",
+        "severity": "minor",
+        "reason": "testing",
+        "method": "dm",
+        "success": true
+      },
+      "timestamp": 1755718477148
+    },
+    {
+      "id": "1755719284800_6246kamqkn7",
+      "guildId": "1373953154550599753",
+      "userId": "1359800833297875064",
+      "action": "warning_appeal_button_sent",
+      "data": {
+        "warningId": "WW6HRSL4",
+        "severity": "minor",
+        "reason": "bruh",
+        "method": "dm",
+        "success": true,
+        "serverName": "Senpai's bot's testing area",
+        "serverMemberCount": 41,
+        "timestamp": 1755719284800,
+        "date": "2025-08-20T19:48:04.800Z"
+      },
+      "timestamp": 1755719284800
+    },
+    {
+      "id": "1755720392704_wzsqu60rzhg",
+      "guildId": "1373953154550599753",
+      "userId": "1359800833297875064",
+      "action": "warning_appeal_button_sent",
+      "data": {
+        "warningId": "DGJ0A2OQ",
+        "severity": "minor",
+        "reason": "dude",
+        "method": "dm",
+        "success": true,
+        "serverName": "Senpai's bot's testing area",
+        "serverMemberCount": 41,
+        "timestamp": 1755720392704,
+        "date": "2025-08-20T20:06:32.704Z"
+      },
+      "timestamp": 1755720392704
+    },
+    {
+      "id": "1755753153345_s9ibezcdi2j",
+      "guildId": "1373953154550599753",
+      "userId": "1359800833297875064",
+      "action": "warning_appeal_button_sent",
+      "data": {
+        "warningId": "XO67JODY",
+        "severity": "minor",
+        "reason": "fuckme",
+        "method": "dm",
+        "success": true,
+        "serverName": "Senpai's bot's testing area",
+        "serverMemberCount": 41,
+        "timestamp": 1755753153345,
+        "date": "2025-08-21T05:12:33.345Z"
+      },
+      "timestamp": 1755753153345
+    },
+    {
+      "id": "1755757060266_exfcfoy1djc",
+      "guildId": "1373953154550599753",
+      "userId": "1359800833297875064",
+      "action": "warning_appeal_button_sent",
+      "data": {
+        "warningId": "ZDGQNK19",
+        "severity": "minor",
+        "reason": "ahhh",
+        "method": "dm",
+        "success": true,
+        "serverName": "Senpai's bot's testing area",
+        "serverMemberCount": 41,
+        "timestamp": 1755757060266,
+        "date": "2025-08-21T06:17:40.266Z"
+      },
+      "timestamp": 1755757060266
+    },
+    {
+      "id": "1755761518365_dfh9f8opifl",
+      "guildId": "1373953154550599753",
+      "userId": "1359800833297875064",
+      "action": "warning_appeal_button_sent",
+      "data": {
+        "warningId": "1HJRFY6I",
+        "severity": "minor",
+        "reason": "gg",
+        "method": "dm",
+        "success": true,
+        "serverName": "Senpai's bot's testing area",
+        "serverMemberCount": 41,
+        "timestamp": 1755761518365,
+        "date": "2025-08-21T07:31:58.365Z"
+      },
+      "timestamp": 1755761518365
+    },
+    {
+      "id": "1755795955255_r2ospg8laes",
+      "guildId": "1406951898761920512",
+      "userId": "1132339434252140554",
+      "action": "warning_appeal_button_sent",
+      "data": {
+        "warningId": "SLQ581CG",
+        "severity": "severe",
+        "reason": "jinx",
+        "method": "dm",
+        "success": true,
+        "serverName": "Textify Testing Hub",
+        "serverMemberCount": 14,
+        "timestamp": 1755795955255,
+        "date": "2025-08-21T17:05:55.255Z"
+      },
+      "timestamp": 1755795955255
+    },
+    {
+      "id": "1755858341662_9klhqtnqrg",
+      "guildId": "1406951898761920512",
+      "userId": "1359800833297875064",
+      "action": "warning_appeal_button_sent",
+      "data": {
+        "warningId": "SOMPWN8T",
+        "severity": "moderate",
+        "reason": "Used blocked word: \"fuck\"",
+        "method": "dm",
+        "success": true,
+        "serverName": "Textify Testing Hub",
+        "serverMemberCount": 15,
+        "timestamp": 1755858341662,
+        "date": "2025-08-22T10:25:41.662Z"
+      },
+      "timestamp": 1755858341662
+    },
+    {
+      "id": "1755878079552_vbb7l10bfo",
+      "guildId": "1406951898761920512",
+      "userId": "1359800833297875064",
+      "action": "warning_appeal_button_sent",
+      "data": {
+        "warningId": "X51P7FSU",
+        "severity": "moderate",
+        "reason": "Used blocked word: \"fuck\"",
+        "method": "dm",
+        "success": true,
+        "serverName": "Textify Testing Hub",
+        "serverMemberCount": 15,
+        "timestamp": 1755878079552,
+        "date": "2025-08-22T15:54:39.552Z"
+      },
+      "timestamp": 1755878079552
+    },
+    {
+      "id": "1755878439529_k7owq7oa5en",
+      "guildId": "1406951898761920512",
+      "userId": "1359800833297875064",
+      "action": "warning_appeal_button_sent",
+      "data": {
+        "warningId": "2QT46T0A",
+        "severity": "minor",
+        "reason": "....",
+        "method": "dm",
+        "success": true,
+        "serverName": "Textify Testing Hub",
+        "serverMemberCount": 15,
+        "timestamp": 1755878439529,
+        "date": "2025-08-22T16:00:39.529Z"
+      },
+      "timestamp": 1755878439529
+    },
+    {
+      "id": "1755928198593_fb57a4hcmhj",
+      "guildId": "1373953154550599753",
+      "userId": "1359800833297875064",
+      "action": "warning_appeal_button_sent",
+      "data": {
+        "warningId": "C2W4QPGB",
+        "severity": "severe",
+        "reason": "No reason provided",
+        "method": "dm",
+        "success": true,
+        "serverName": "Senpai's bot's testing area",
+        "serverMemberCount": 41,
+        "timestamp": 1755928198593,
+        "date": "2025-08-23T05:49:58.593Z"
+      },
+      "timestamp": 1755928198593
+    },
+    {
+      "id": "1756119054904_er6ge3tojs6",
+      "guildId": "1407001608142716958",
+      "userId": "1359800833297875064",
+      "action": "warning_appeal_button_sent",
+      "data": {
+        "warningId": "K92ZJ2FT",
+        "severity": "minor",
+        "reason": "warn",
+        "method": "dm",
+        "success": true,
+        "serverName": "Senpai's server",
+        "serverMemberCount": 3,
+        "timestamp": 1756119054904,
+        "date": "2025-08-25T10:50:54.904Z"
+      },
+      "timestamp": 1756119054904
+    },
+    {
+      "id": "1756274470676_7jqj968k66j",
+      "guildId": "1410110973855006763",
+      "userId": "1359800833297875064",
+      "action": "warning_appeal_button_sent",
+      "data": {
+        "warningId": "T503UGFE",
+        "severity": "minor",
+        "reason": "warn",
+        "method": "dm",
+        "success": true,
+        "serverName": "the command dojo",
+        "serverMemberCount": 11,
+        "timestamp": 1756274470676,
+        "date": "2025-08-27T06:01:10.676Z"
+      },
+      "timestamp": 1756274470676
+    }
+  ],
+  "statistics": {
+    "1373953154550599753": {
+      "totalActions": 6,
+      "successfulDeliveries": 6,
+      "failedDeliveries": 0,
+      "appeals": 0,
+      "feedback": 0
+    },
+    "1406951898761920512": {
+      "totalActions": 4,
+      "successfulDeliveries": 4,
+      "failedDeliveries": 0,
+      "appeals": 0,
+      "feedback": 0
+    },
+    "1407001608142716958": {
+      "totalActions": 1,
+      "successfulDeliveries": 1,
+      "failedDeliveries": 0,
+      "appeals": 0,
+      "feedback": 0
+    },
+    "1410110973855006763": {
+      "totalActions": 1,
+      "successfulDeliveries": 1,
+      "failedDeliveries": 0,
+      "appeals": 0,
+      "feedback": 0
+    }
+  }
+}

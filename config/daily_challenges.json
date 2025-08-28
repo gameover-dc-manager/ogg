@@ -1,0 +1,17 @@
+{
+  "Mon Aug 04 2025": {
+    "trivia": {
+      "id": "ptwceg6rv",
+      "difficulty": "medium",
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        "Vincent van Gogh",
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Michelangelo"
+      ],
+      "correct": 1,
+      "points": 10
+    }
+  }
+}

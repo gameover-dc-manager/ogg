@@ -1,0 +1,39 @@
+
+{
+  "challenges": {
+    "beginner": [
+      {
+        "id": "sum_two_numbers",
+        "title": "Sum of Two Numbers",
+        "description": "Write a function that takes two numbers and returns their sum.",
+        "example": "Input: a = 5, b = 3\nOutput: 8",
+        "constraints": "• -1000 ≤ a, b ≤ 1000",
+        "points": 10,
+        "hints": ["Start with a simple function definition", "Don't forget to return the result"]
+      },
+      {
+        "id": "reverse_string",
+        "title": "Reverse String",
+        "description": "Write a function that reverses a string.",
+        "example": "Input: 'hello'\nOutput: 'olleh'",
+        "constraints": "• String length ≤ 1000",
+        "points": 15,
+        "hints": ["Think about string slicing", "Consider using built-in methods"]
+      }
+    ],
+    "intermediate": [
+      {
+        "id": "palindrome_checker",
+        "title": "Palindrome Checker",
+        "description": "Write a function that checks if a given string is a palindrome.",
+        "example": "Input: 'racecar'\nOutput: true",
+        "constraints": "• String length ≤ 1000\n• Case insensitive",
+        "points": 25,
+        "hints": ["Compare the string with its reverse", "Consider case sensitivity"]
+      }
+    ]
+  },
+  "submissions": {},
+  "leaderboard": {},
+  "user_stats": {}
+}

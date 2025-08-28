@@ -1,0 +1,165 @@
+{
+  "template": {
+    "commandName": {
+      "uses": 0,
+      "today": 0,
+      "week": 0,
+      "month": 0,
+      "averageResponseTime": 0,
+      "errors": 0,
+      "lastUsed": null
+    }
+  },
+  "1406951898761920512": {
+    "social": {
+      "uses": 14,
+      "today": 14,
+      "week": 14,
+      "month": 14,
+      "averageResponseTime": 839,
+      "errors": 0,
+      "lastUsed": "2025-08-25T14:42:36.953Z"
+    },
+    "analytics": {
+      "uses": 4,
+      "today": 4,
+      "week": 4,
+      "month": 4,
+      "averageResponseTime": 700,
+      "errors": 0,
+      "lastUsed": "2025-08-24T15:20:49.119Z"
+    },
+    "servermanagement": {
+      "uses": 1,
+      "today": 1,
+      "week": 1,
+      "month": 1,
+      "averageResponseTime": 968,
+      "errors": 0,
+      "lastUsed": "2025-08-24T14:13:04.176Z"
+    },
+    "customcommands": {
+      "uses": 1,
+      "today": 1,
+      "week": 1,
+      "month": 1,
+      "averageResponseTime": 837,
+      "errors": 0,
+      "lastUsed": "2025-08-25T11:13:59.514Z"
+    },
+    "sync": {
+      "uses": 1,
+      "today": 1,
+      "week": 1,
+      "month": 1,
+      "averageResponseTime": 2188,
+      "errors": 0,
+      "lastUsed": "2025-08-25T11:14:20.792Z"
+    },
+    "play": {
+      "uses": 4,
+      "today": 4,
+      "week": 4,
+      "month": 4,
+      "averageResponseTime": 3788,
+      "errors": 0,
+      "lastUsed": "2025-08-25T14:48:57.878Z"
+    }
+  },
+  "1407001608142716958": {
+    "creative": {
+      "uses": 1,
+      "today": 1,
+      "week": 1,
+      "month": 1,
+      "averageResponseTime": 479,
+      "errors": 0,
+      "lastUsed": "2025-08-24T14:21:28.541Z"
+    },
+    "analytics": {
+      "uses": 1,
+      "today": 1,
+      "week": 1,
+      "month": 1,
+      "averageResponseTime": 427,
+      "errors": 0,
+      "lastUsed": "2025-08-24T15:10:01.748Z"
+    },
+    "sync": {
+      "uses": 1,
+      "today": 1,
+      "week": 1,
+      "month": 1,
+      "averageResponseTime": 1844,
+      "errors": 0,
+      "lastUsed": "2025-08-24T17:44:36.545Z"
+    },
+    "warn": {
+      "uses": 2,
+      "today": 2,
+      "week": 2,
+      "month": 2,
+      "averageResponseTime": 908,
+      "errors": 0,
+      "lastUsed": "2025-08-25T10:50:44.109Z"
+    }
+  },
+  "1373953154550599753": {
+    "sync": {
+      "uses": 2,
+      "today": 2,
+      "week": 2,
+      "month": 2,
+      "averageResponseTime": 2806,
+      "errors": 0,
+      "lastUsed": "2025-08-24T17:49:08.390Z"
+    },
+    "custommessages": {
+      "uses": 1,
+      "today": 1,
+      "week": 1,
+      "month": 1,
+      "averageResponseTime": 906,
+      "errors": 0,
+      "lastUsed": "2025-08-24T17:37:48.303Z"
+    }
+  },
+  "1410110973855006763": {
+    "testlog": {
+      "uses": 1,
+      "today": 1,
+      "week": 1,
+      "month": 1,
+      "averageResponseTime": 842,
+      "errors": 0,
+      "lastUsed": "2025-08-27T05:44:46.875Z"
+    },
+    "moderation": {
+      "uses": 1,
+      "today": 1,
+      "week": 1,
+      "month": 1,
+      "averageResponseTime": 484,
+      "errors": 0,
+      "lastUsed": "2025-08-27T05:51:33.509Z"
+    },
+    "leaderboard": {
+      "uses": 1,
+      "today": 1,
+      "week": 1,
+      "month": 1,
+      "averageResponseTime": 698,
+      "errors": 0,
+      "lastUsed": "2025-08-27T05:55:16.934Z"
+    },
+    "warn": {
+      "uses": 1,
+      "today": 1,
+      "week": 1,
+      "month": 1,
+      "averageResponseTime": 938,
+      "errors": 0,
+      "lastUsed": "2025-08-27T06:00:54.173Z"
+    }
+  }
+}

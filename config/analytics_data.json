@@ -1,0 +1,25 @@
+
+{
+  "template": {
+    "messages": {
+      "total": 0,
+      "today": 0,
+      "week": 0,
+      "month": 0
+    },
+    "users": {
+      "active": 0,
+      "new": 0,
+      "returning": 0
+    },
+    "engagement": {
+      "score": 0,
+      "reactions": 0,
+      "voiceMinutes": 0
+    },
+    "hourlyActivity": {},
+    "dailyActivity": {},
+    "channelActivity": {},
+    "lastUpdated": null
+  }
+}

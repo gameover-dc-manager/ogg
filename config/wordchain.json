@@ -1,0 +1,20 @@
+{
+  "1406951898761920512": {
+    "1406969888744149124": {
+      "enabled": true,
+      "currentWord": "lol",
+      "lastUser": null,
+      "chainLength": 1,
+      "longestChain": 1,
+      "totalWords": 1,
+      "mistakes": 0,
+      "contributors": {},
+      "usedWords": [
+        "lol"
+      ],
+      "minLength": 3,
+      "startedAt": 1755765745406,
+      "lastResetAt": 1755765745406
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "enabled": true,
+  "auto_warn": true,
+  "auto_escalation": true,
+  "blocked_words": [
+    "spam",
+    "scam",
+    "fraud",
+    "hack",
+    "exploit",
+    "fuck",
+    "jj",
+    "no",
+    "abcd"
+  ],
+  "whitelist": [],
+  "severity_levels": {
+    "minor": [
+      "spam",
+      "annoying",
+      "no"
+    ],
+    "moderate": [
+      "scam",
+      "fraud",
+      "fuck",
+      "jj"
+    ],
+    "severe": [
+      "hack",
+      "exploit",
+      "ddos",
+      "abcd"
+    ]
+  },
+  "escalation_thresholds": {
+    "warn": 1,
+    "timeout": 3,
+    "kick": 5,
+    "ban": 7
+  },
+  "bypass_admins": true,
+  "log_violations": true
+}

@@ -1,0 +1,70 @@
+
+{
+  "categories": {
+    "science": [
+      {
+        "question": "What is the chemical symbol for gold?",
+        "options": ["Go", "Au", "Ag", "Gl"],
+        "correct": 1,
+        "explanation": "Au comes from the Latin word 'aurum' meaning gold.",
+        "difficulty": "easy",
+        "points": 10
+      },
+      {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Venus", "Jupiter", "Mars", "Saturn"],
+        "correct": 2,
+        "explanation": "Mars appears red due to iron oxide (rust) on its surface.",
+        "difficulty": "easy",
+        "points": 10
+      },
+      {
+        "question": "What is the powerhouse of the cell?",
+        "options": ["Nucleus", "Mitochondria", "Ribosome", "Cytoplasm"],
+        "correct": 1,
+        "explanation": "Mitochondria produce ATP, the energy currency of cells.",
+        "difficulty": "medium",
+        "points": 15
+      }
+    ],
+    "history": [
+      {
+        "question": "Who was the first President of the United States?",
+        "options": ["Thomas Jefferson", "George Washington", "John Adams", "Benjamin Franklin"],
+        "correct": 1,
+        "explanation": "George Washington served as the first President from 1789 to 1797.",
+        "difficulty": "easy",
+        "points": 10
+      },
+      {
+        "question": "In which year did World War II end?",
+        "options": ["1944", "1945", "1946", "1947"],
+        "correct": 1,
+        "explanation": "World War II ended in 1945 with the surrender of Japan.",
+        "difficulty": "medium",
+        "points": 15
+      }
+    ],
+    "math": [
+      {
+        "question": "What is the value of π (pi) to two decimal places?",
+        "options": ["3.14", "3.15", "3.16", "3.17"],
+        "correct": 0,
+        "explanation": "π (pi) is approximately 3.14159...",
+        "difficulty": "easy",
+        "points": 10
+      },
+      {
+        "question": "What is the square root of 144?",
+        "options": ["10", "11", "12", "13"],
+        "correct": 2,
+        "explanation": "12 × 12 = 144, so √144 = 12",
+        "difficulty": "easy",
+        "points": 10
+      }
+    ]
+  },
+  "user_stats": {},
+  "leaderboard": {},
+  "custom_categories": {}
+}

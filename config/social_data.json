@@ -1,0 +1,53 @@
+{
+  "1406951898761920512": {
+    "769040767267504128": {
+      "profile": {
+        "bio": "nope",
+        "socialLinks": {},
+        "achievements": []
+      },
+      "messages": 7,
+      "interactions": 7
+    }
+  },
+  "1373953154550599753": {
+    "769040767267504128": {
+      "messages": 3,
+      "voiceTime": 0,
+      "reactionsGiven": 0,
+      "reactionsReceived": 0,
+      "interactions": 3,
+      "eventsAttended": 0,
+      "joinDate": 1756057075725
+    }
+  },
+  "1410110973855006763": {
+    "1262925877814231146": {
+      "messages": 1,
+      "voiceTime": 0,
+      "reactionsGiven": 0,
+      "reactionsReceived": 0,
+      "interactions": 1,
+      "eventsAttended": 0,
+      "joinDate": 1756271648813
+    },
+    "1359800833297875064": {
+      "messages": 1,
+      "voiceTime": 0,
+      "reactionsGiven": 0,
+      "reactionsReceived": 0,
+      "interactions": 1,
+      "eventsAttended": 0,
+      "joinDate": 1756273920776
+    },
+    "769040767267504128": {
+      "messages": 1,
+      "voiceTime": 0,
+      "reactionsGiven": 0,
+      "reactionsReceived": 0,
+      "interactions": 1,
+      "eventsAttended": 0,
+      "joinDate": 1756273974900
+    }
+  }
+}

@@ -1,0 +1,79 @@
+
+# Discord Bot Requirements
+# This file lists all the required packages and dependencies for the Discord bot
+
+# Core Discord.js and Node.js packages
+discord.js@^14.0.0
+@discordjs/rest@^2.0.0
+@discordjs/builders@^1.0.0
+
+# Music system (Lavalink)
+erela.js@^2.4.0
+better-erela.js-spotify@^1.3.9
+
+# Web server and dashboard
+express@^4.18.0
+express-session@^1.17.0
+passport@^0.6.0
+passport-discord@^0.1.4
+
+# Utility packages
+axios@^1.0.0
+node-fetch@^3.0.0
+fs-extra@^11.0.0
+moment@^2.29.0
+
+# AI and external APIs
+@google/generative-ai@^0.1.0
+
+# Database and file management
+sqlite3@^5.1.0
+json-stable-stringify@^1.0.2
+
+# Security and validation
+bcrypt@^5.1.0
+validator@^13.9.0
+
+# Image processing and captcha
+canvas@^2.11.0
+sharp@^0.32.0
+
+# Development dependencies
+nodemon@^3.0.0
+eslint@^8.0.0
+
+# Additional utilities
+chalk@^5.0.0
+dotenv@^16.0.0
+morgan@^1.10.0
+
+# Installation Instructions:
+# 1. Run: npm install
+# 2. Set up environment variables in Replit Secrets:
+#    - DISCORD_TOKEN: Your Discord bot token
+#    - GEMINI_API_KEY: Your Google Gemini API key (optional)
+#    - SESSION_SECRET: Random string for session encryption
+#    - DISCORD_CLIENT_SECRET: Discord OAuth client secret (optional)
+# 3. Configure channels and permissions using /setup commands
+# 4. Set up dashboard using /dashboard-setup create command
+
+# Optional External Services:
+# - Lavalink server for music (configure in music commands)
+# - MongoDB/PostgreSQL for persistent data (currently using JSON files)
+# - Redis for caching (optional optimization)
+
+# Bot Features:
+# ✅ Music System (Lavalink)
+# ✅ Moderation (Warnings, Kicks, Bans)
+# ✅ Captcha Verification
+# ✅ Web Dashboard
+# ✅ AI Chat Integration
+# ✅ Reaction Roles
+# ✅ Fun Games & Activities
+# ✅ Utility Commands
+# ✅ Anime Information
+# ✅ News Updates
+# ✅ Economy System (Daily rewards)
+# ✅ Auto-moderation
+# ✅ Appeal System
+# ✅ Statistics & Analytics

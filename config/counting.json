@@ -1,0 +1,80 @@
+{
+  "1389677910721560659": {
+    "1393960813919866930": {
+      "enabled": true,
+      "currentNumber": 1,
+      "lastUser": null,
+      "highestReached": 1,
+      "totalMessages": 0,
+      "mistakes": 0,
+      "contributors": {},
+      "startedAt": 1754259107536,
+      "lastResetAt": 1754259107536
+    }
+  },
+  "1373953154550599753": {
+    "1386303196145913927": {
+      "enabled": true,
+      "currentNumber": 1,
+      "lastUser": null,
+      "highestReached": 1,
+      "totalMessages": 0,
+      "mistakes": 0,
+      "contributors": {},
+      "startedAt": 1754465684284,
+      "lastResetAt": 1754465684284
+    }
+  },
+  "1406951898761920512": {
+    "1407333086311485470": {
+      "enabled": true,
+      "currentNumber": 3,
+      "lastUser": "769040767267504128",
+      "highestReached": 2,
+      "totalMessages": 4,
+      "mistakes": 2,
+      "contributors": {
+        "769040767267504128": {
+          "count": 2,
+          "streak": 1,
+          "bestStreak": 1
+        },
+        "1132339434252140554": {
+          "count": 1,
+          "streak": 0,
+          "bestStreak": 1
+        },
+        "866216883958710272": {
+          "count": 1,
+          "streak": 1,
+          "bestStreak": 1
+        }
+      },
+      "startedAt": 1755760382076,
+      "lastResetAt": 1755790919939,
+      "deleteWrong": true,
+      "streakNotifications": true,
+      "customReactions": [
+        "🎯",
+        "✅",
+        "👍",
+        "🔢",
+        "⭐"
+      ],
+      "punishments": {
+        "769040767267504128": 1,
+        "1132339434252140554": 1
+      },
+      "streakMilestones": [
+        10,
+        25,
+        50,
+        100,
+        250,
+        500,
+        1000
+      ],
+      "lastContributor": "769040767267504128"
+    }
+  }
+}

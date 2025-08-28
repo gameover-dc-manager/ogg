@@ -1,0 +1,20 @@
+{
+  "1132339434252140554": {
+    "totalScore": 15,
+    "gamesPlayed": 1,
+    "gamesWon": 1,
+    "gameHistory": {
+      "riddle": {
+        "played": 1,
+        "won": 1,
+        "totalScore": 15
+      }
+    },
+    "currentStreak": 1,
+    "bestStreak": 1,
+    "achievements": [
+      "🏆 First Victory"
+    ],
+    "dailyChallenges": 0
+  }
+}

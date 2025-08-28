@@ -1,0 +1,7 @@
+
+{
+  "clientId": "1360994536104661062",
+  "clientSecret": "YOUR_DISCORD_CLIENT_SECRET",
+  "callbackURL": "http://localhost:5000/auth/discord/callback",
+  "sessionSecret": "your-super-secret-session-key-change-this"
+}

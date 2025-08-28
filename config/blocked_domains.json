@@ -1,0 +1,44 @@
+{
+  "enabled": true,
+  "auto_warn": true,
+  "auto_escalation": true,
+  "blocked_domains": [
+    "malware-site.com",
+    "phishing-example.com",
+    "spam-links.net",
+    "google.xom",
+    "cornhub.com"
+  ],
+  "whitelist": [
+    "discord.com",
+    "github.com",
+    "google.com",
+    "youtube.com",
+    "twitter.com",
+    "reddit.com"
+  ],
+  "severity_levels": {
+    "minor": [
+      "spam-links.net",
+      "cornhub.com"
+    ],
+    "moderate": [
+      "suspicious-site.com"
+    ],
+    "severe": [
+      "malware-site.com",
+      "phishing-example.com",
+      "google.xom"
+    ]
+  },
+  "escalation_thresholds": {
+    "warn": 1,
+    "timeout": 2,
+    "kick": 4,
+    "ban": 6
+  },
+  "bypass_admins": true,
+  "log_violations": true,
+  "allowed_channels": [],
+  "delete_messages": true
+}

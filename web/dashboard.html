@@ -1,0 +1,636 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Dashboard - Admin Panel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #7289da;
+            --secondary-color: #5865f2;
+            --success-color: #43b581;
+            --warning-color: #faa61a;
+            --danger-color: #f04747;
+            --dark-bg: #2c2f33;
+            --darker-bg: #23272a;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            color: #fff;
+        }
+
+        .dashboard-container {
+            background: rgba(44, 47, 51, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .stat-card {
+            background: rgba(35, 39, 42, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+            border-color: var(--primary-color);
+        }
+
+        .stat-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .primary-color { background: var(--primary-color); }
+        .success-color { background: var(--success-color); }
+        .warning-color { background: var(--warning-color); }
+        .danger-color { background: var(--danger-color); }
+        .info-color { background: #3498db; }
+
+        .guild-selector {
+            background: rgba(35, 39, 42, 0.9);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            color: #fff;
+        }
+
+        .guild-selector:focus {
+            background: rgba(35, 39, 42, 0.9);
+            border-color: var(--primary-color);
+            color: #fff;
+            box-shadow: 0 0 10px rgba(114, 137, 218, 0.3);
+        }
+
+        .section-header {
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            margin: -20px -20px 20px -20px;
+            padding: 20px;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .auth-container {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .discord-btn {
+            background: var(--primary-color);
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            color: white;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .discord-btn:hover {
+            background: var(--secondary-color);
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .spinner-border {
+            color: var(--primary-color);
+        }
+
+        .table-dark {
+            background: rgba(35, 39, 42, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-outline-primary {
+            border-color: var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .btn-outline-primary:hover {
+            background: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+
+        .alert-info {
+            background: rgba(52, 152, 219, 0.2);
+            border-color: #3498db;
+            color: #87ceeb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid py-4">
+        <!-- Authentication Section -->
+        <div id="authSection" class="auth-container dashboard-container mx-auto" style="max-width: 500px; display: none;">
+            <div class="section-header">
+                <h2><i class="fab fa-discord me-2"></i>Admin Authentication Required</h2>
+            </div>
+            <div class="p-4">
+                <p class="lead mb-4">Please authenticate with Discord to access the admin dashboard.</p>
+                
+                <div class="alert alert-info mb-4">
+                    <h6><i class="fas fa-info-circle me-2"></i>Access Requirements</h6>
+                    <ul class="mb-0">
+                        <li>You must have <strong>Administrator</strong> permissions in the Discord server</li>
+                        <li>The bot must be present in your server</li>
+                        <li>Only servers where you're an admin will be available for management</li>
+                    </ul>
+                </div>
+
+                <div class="mb-4">
+                    <h6><i class="fas fa-shield-alt me-2 text-primary"></i>Dashboard Features</h6>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="text-start">
+                                <li>Server statistics & analytics</li>
+                                <li>Warning system management</li>
+                                <li>Captcha system monitoring</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="text-start">
+                                <li>Channel configuration</li>
+                                <li>Real-time data updates</li>
+                                <li>Secure per-server access</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a href="/auth/discord" class="discord-btn">
+                    <i class="fab fa-discord"></i>
+                    Login with Discord
+                </a>
+            </div>
+        </div>
+
+        <!-- Loading Section -->
+        <div id="loadingSection" class="loading dashboard-container mx-auto" style="max-width: 400px;">
+            <div class="spinner-border" role="status" style="width: 3rem; height: 3rem;">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-3">Loading dashboard...</p>
+        </div>
+
+        <!-- Main Dashboard -->
+        <div id="dashboardSection" style="display: none;">
+            <!-- Header -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="dashboard-container p-4">
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <div>
+                                <h1 class="mb-1">
+                                    <i class="fas fa-shield-alt me-2 text-primary"></i>
+                                    Bot Admin Dashboard
+                                </h1>
+                                <p class="text-muted mb-0">Server management and statistics</p>
+                            </div>
+                            <div class="d-flex align-items-center gap-3">
+                                <div>
+                                    <select id="guildSelector" class="form-select guild-selector">
+                                        <option value="">Select a server...</option>
+                                    </select>
+                                </div>
+                                <div class="text-end">
+                                    <small class="text-muted d-block">Logged in as</small>
+                                    <strong id="userInfo">Loading...</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Server Info Alert -->
+            <div id="serverAlert" class="row mb-4" style="display: none;">
+                <div class="col-12">
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle me-2"></i>
+                        <span id="serverAlertText">Please select a server to view its dashboard.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistics Cards -->
+            <div id="statsSection" class="row mb-4" style="display: none;">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card stat-card h-100">
+                        <div class="card-body text-center">
+                            <div class="stat-icon primary-color mx-auto">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h2 class="stat-number text-primary" id="memberCount">-</h2>
+                            <p class="stat-label mb-0">Total Members</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card stat-card h-100">
+                        <div class="card-body text-center">
+                            <div class="stat-icon warning-color mx-auto">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                            <h2 class="stat-number text-warning" id="totalWarnings">-</h2>
+                            <p class="stat-label mb-0">Total Warnings</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card stat-card h-100">
+                        <div class="card-body text-center">
+                            <div class="stat-icon success-color mx-auto">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <h2 class="stat-number text-success" id="successfulCaptchas">-</h2>
+                            <p class="stat-label mb-0">Verified Users</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card stat-card h-100">
+                        <div class="card-body text-center">
+                            <div class="stat-icon danger-color mx-auto">
+                                <i class="fas fa-ban"></i>
+                            </div>
+                            <h2 class="stat-number text-danger" id="moderationActions">-</h2>
+                            <p class="stat-label mb-0">Mod Actions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Management Sections -->
+            <div id="managementSection" style="display: none;">
+                <div class="row">
+                    <!-- Warning Management -->
+                    <div class="col-lg-6 mb-4">
+                        <div class="dashboard-container p-4">
+                            <h3 class="mb-3">
+                                <i class="fas fa-exclamation-triangle text-warning me-2"></i>
+                                Warning Management
+                            </h3>
+                            <div class="table-responsive">
+                                <table class="table table-dark table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>User</th>
+                                            <th>Reason</th>
+                                            <th>Date</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="warningsTable">
+                                        <tr>
+                                            <td colspan="4" class="text-center">Loading warnings...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Captcha Management -->
+                    <div class="col-lg-6 mb-4">
+                        <div class="dashboard-container p-4">
+                            <h3 class="mb-3">
+                                <i class="fas fa-shield-alt text-info me-2"></i>
+                                Captcha Status
+                            </h3>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="text-center">
+                                        <div class="stat-icon success-color mx-auto mb-2" style="width: 40px; height: 40px; font-size: 16px;">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <h4 id="captchaSuccess" class="text-success">-</h4>
+                                        <small>Successful</small>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="text-center">
+                                        <div class="stat-icon danger-color mx-auto mb-2" style="width: 40px; height: 40px; font-size: 16px;">
+                                            <i class="fas fa-times"></i>
+                                        </div>
+                                        <h4 id="captchaFailed" class="text-danger">-</h4>
+                                        <small>Failed</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span>Captcha System:</span>
+                                    <span id="captchaStatus" class="badge bg-secondary">Loading...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Server Configuration -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="dashboard-container p-4">
+                            <h3 class="mb-3">
+                                <i class="fas fa-cogs text-primary me-2"></i>
+                                Server Configuration
+                            </h3>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Log Channel</label>
+                                        <select id="logChannel" class="form-select guild-selector">
+                                            <option value="">Select channel...</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Welcome Channel</label>
+                                        <select id="welcomeChannel" class="form-select guild-selector">
+                                            <option value="">Select channel...</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Verification Channel</label>
+                                        <select id="verificationChannel" class="form-select guild-selector">
+                                            <option value="">Select channel...</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <button onclick="saveServerConfig()" class="btn btn-outline-primary">
+                                <i class="fas fa-save me-2"></i>Save Configuration
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let currentUser = null;
+        let selectedGuildId = null;
+
+        // Initialize dashboard
+        document.addEventListener('DOMContentLoaded', async function() {
+            await checkAuthentication();
+            setupEventListeners();
+        });
+
+        async function checkAuthentication() {
+            try {
+                const response = await fetch('/api/auth/user');
+                if (response.ok) {
+                    currentUser = await response.json();
+                    await loadUserGuilds();
+                    showDashboard();
+                } else {
+                    showAuthSection();
+                }
+            } catch (error) {
+                console.error('Auth check failed:', error);
+                showAuthSection();
+            }
+        }
+
+        async function loadUserGuilds() {
+            try {
+                const response = await fetch('/api/user/guilds');
+                if (response.ok) {
+                    const guilds = await response.json();
+                    populateGuildSelector(guilds);
+                    document.getElementById('userInfo').textContent = currentUser.username;
+                }
+            } catch (error) {
+                console.error('Failed to load guilds:', error);
+            }
+        }
+
+        function populateGuildSelector(guilds) {
+            const selector = document.getElementById('guildSelector');
+            selector.innerHTML = '<option value="">Select a server...</option>';
+            
+            guilds.forEach(guild => {
+                const option = document.createElement('option');
+                option.value = guild.id;
+                option.textContent = guild.name;
+                selector.appendChild(option);
+            });
+        }
+
+        async function loadGuildData(guildId) {
+            if (!guildId) {
+                hideGuildSections();
+                return;
+            }
+
+            selectedGuildId = guildId;
+            
+            try {
+                // Load guild stats
+                const [statsRes, warningsRes, captchaRes] = await Promise.all([
+                    fetch(`/api/guild/${guildId}/stats`),
+                    fetch(`/api/guild/${guildId}/warnings`),
+                    fetch(`/api/guild/${guildId}/captcha`)
+                ]);
+
+                if (statsRes.ok) {
+                    const stats = await statsRes.json();
+                    updateStatsDisplay(stats);
+                }
+
+                if (warningsRes.ok) {
+                    const warnings = await warningsRes.json();
+                    updateWarningsTable(warnings);
+                }
+
+                if (captchaRes.ok) {
+                    const captcha = await captchaRes.json();
+                    updateCaptchaDisplay(captcha);
+                }
+
+                showGuildSections();
+                document.getElementById('serverAlert').style.display = 'none';
+
+            } catch (error) {
+                console.error('Failed to load guild data:', error);
+                showAlert('Failed to load server data. Please try again.', 'danger');
+            }
+        }
+
+        function updateStatsDisplay(stats) {
+            document.getElementById('memberCount').textContent = stats.memberCount || 0;
+            document.getElementById('totalWarnings').textContent = stats.totalWarnings || 0;
+            document.getElementById('successfulCaptchas').textContent = stats.successfulVerifications || 0;
+            document.getElementById('moderationActions').textContent = stats.moderationActions || 0;
+        }
+
+        function updateWarningsTable(warnings) {
+            const tbody = document.getElementById('warningsTable');
+            tbody.innerHTML = '';
+
+            if (warnings.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="4" class="text-center">No warnings found</td></tr>';
+                return;
+            }
+
+            warnings.slice(0, 10).forEach(warning => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${warning.username || 'Unknown User'}</td>
+                    <td class="text-truncate" style="max-width: 150px;" title="${warning.reason}">${warning.reason}</td>
+                    <td>${new Date(warning.timestamp).toLocaleDateString()}</td>
+                    <td>
+                        <button class="btn btn-sm btn-outline-danger" onclick="removeWarning('${warning.id}')">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function updateCaptchaDisplay(captcha) {
+            document.getElementById('captchaSuccess').textContent = captcha.successfulVerifications || 0;
+            document.getElementById('captchaFailed').textContent = captcha.failedVerifications || 0;
+            
+            const statusBadge = document.getElementById('captchaStatus');
+            if (captcha.enabled) {
+                statusBadge.textContent = 'Enabled';
+                statusBadge.className = 'badge bg-success';
+            } else {
+                statusBadge.textContent = 'Disabled';
+                statusBadge.className = 'badge bg-secondary';
+            }
+        }
+
+        function setupEventListeners() {
+            document.getElementById('guildSelector').addEventListener('change', function() {
+                loadGuildData(this.value);
+            });
+        }
+
+        function showAuthSection() {
+            document.getElementById('loadingSection').style.display = 'none';
+            document.getElementById('authSection').style.display = 'block';
+            document.getElementById('dashboardSection').style.display = 'none';
+        }
+
+        function showDashboard() {
+            document.getElementById('loadingSection').style.display = 'none';
+            document.getElementById('authSection').style.display = 'none';
+            document.getElementById('dashboardSection').style.display = 'block';
+            document.getElementById('serverAlert').style.display = 'block';
+        }
+
+        function showGuildSections() {
+            document.getElementById('statsSection').style.display = 'block';
+            document.getElementById('managementSection').style.display = 'block';
+        }
+
+        function hideGuildSections() {
+            document.getElementById('statsSection').style.display = 'none';
+            document.getElementById('managementSection').style.display = 'none';
+            document.getElementById('serverAlert').style.display = 'block';
+            document.getElementById('serverAlertText').textContent = 'Please select a server to view its dashboard.';
+        }
+
+        function showAlert(message, type = 'info') {
+            const alertDiv = document.getElementById('serverAlert');
+            const alertText = document.getElementById('serverAlertText');
+            alertText.textContent = message;
+            alertDiv.className = `row mb-4 alert alert-${type}`;
+            alertDiv.style.display = 'block';
+        }
+
+        async function removeWarning(warningId) {
+            if (!confirm('Are you sure you want to remove this warning?')) return;
+
+            try {
+                const response = await fetch(`/api/guild/${selectedGuildId}/warnings/${warningId}`, {
+                    method: 'DELETE'
+                });
+
+                if (response.ok) {
+                    showAlert('Warning removed successfully!', 'success');
+                    loadGuildData(selectedGuildId); // Reload data
+                } else {
+                    showAlert('Failed to remove warning.', 'danger');
+                }
+            } catch (error) {
+                console.error('Failed to remove warning:', error);
+                showAlert('Failed to remove warning.', 'danger');
+            }
+        }
+
+        async function saveServerConfig() {
+            const config = {
+                logChannelId: document.getElementById('logChannel').value,
+                welcomeChannelId: document.getElementById('welcomeChannel').value,
+                verificationChannelId: document.getElementById('verificationChannel').value
+            };
+
+            try {
+                const response = await fetch(`/api/guild/${selectedGuildId}/config`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(config)
+                });
+
+                if (response.ok) {
+                    showAlert('Configuration saved successfully!', 'success');
+                } else {
+                    showAlert('Failed to save configuration.', 'danger');
+                }
+            } catch (error) {
+                console.error('Failed to save config:', error);
+                showAlert('Failed to save configuration.', 'danger');
+            }
+        }
+
+        // Auto-refresh data every 30 seconds
+        setInterval(() => {
+            if (selectedGuildId) {
+                loadGuildData(selectedGuildId);
+            }
+        }, 30000);
+    </script>
+</body>
+</html>

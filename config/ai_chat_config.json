@@ -1,0 +1,189 @@
+{
+  "1389677910721560659": {
+    "enabled": false,
+    "channels": [],
+    "dedicatedChannel": null,
+    "settings": {
+      "responseChance": 100,
+      "cooldown": 1,
+      "mentionRequired": false
+    },
+    "personality": {
+      "name": "zero",
+      "traits": [
+        "freaky",
+        "zesty"
+      ],
+      "interests": [
+        "senpai"
+      ],
+      "responseStyle": "zesty"
+    }
+  },
+  "1373953154550599753": {
+    "enabled": true,
+    "channels": [
+      "1373955947151757312"
+    ],
+    "dedicatedChannel": null,
+    "settings": {
+      "responseChance": 100,
+      "cooldown": 1,
+      "mentionRequired": false
+    }
+  },
+  "769042129983897610": {
+    "enabled": false,
+    "channels": [],
+    "dedicatedChannel": null,
+    "settings": {
+      "responseChance": 100,
+      "cooldown": 1,
+      "mentionRequired": false
+    },
+    "personality": {
+      "name": "Assistant",
+      "traits": [
+        "helpful",
+        "friendly"
+      ],
+      "interests": [
+        "gaming",
+        "technology"
+      ],
+      "responseStyle": "casual"
+    }
+  },
+  "1358312390005100635": {
+    "enabled": false,
+    "channels": [],
+    "dedicatedChannel": null,
+    "settings": {
+      "responseChance": 100,
+      "cooldown": 1,
+      "mentionRequired": false
+    },
+    "personality": {
+      "name": "Assistant",
+      "traits": [
+        "helpful",
+        "friendly"
+      ],
+      "interests": [
+        "gaming",
+        "technology"
+      ],
+      "responseStyle": "casual"
+    }
+  },
+  "1361297523591086252": {
+    "enabled": false,
+    "channels": [],
+    "dedicatedChannel": null,
+    "settings": {
+      "responseChance": 100,
+      "cooldown": 1,
+      "mentionRequired": false
+    },
+    "personality": {
+      "name": "Assistant",
+      "traits": [
+        "helpful",
+        "friendly"
+      ],
+      "interests": [
+        "gaming",
+        "technology"
+      ],
+      "responseStyle": "casual"
+    }
+  },
+  "1372608732802056192": {
+    "enabled": false,
+    "channels": [],
+    "dedicatedChannel": null,
+    "settings": {
+      "responseChance": 100,
+      "cooldown": 1,
+      "mentionRequired": false
+    },
+    "personality": {
+      "name": "Assistant",
+      "traits": [
+        "helpful",
+        "friendly"
+      ],
+      "interests": [
+        "gaming",
+        "technology"
+      ],
+      "responseStyle": "casual"
+    }
+  },
+  "1406951898761920512": {
+    "enabled": false,
+    "channels": [],
+    "dedicatedChannel": "1406954935978823680",
+    "settings": {
+      "responseChance": 100,
+      "cooldown": 2,
+      "mentionRequired": false
+    },
+    "personality": {
+      "name": "Assistant",
+      "traits": [
+        "helpful",
+        "friendly"
+      ],
+      "interests": [
+        "gaming",
+        "technology"
+      ],
+      "responseStyle": "casual"
+    }
+  },
+  "1407001608142716958": {
+    "enabled": false,
+    "channels": [],
+    "dedicatedChannel": null,
+    "settings": {
+      "responseChance": 100,
+      "cooldown": 1,
+      "mentionRequired": false
+    },
+    "personality": {
+      "name": "Assistant",
+      "traits": [
+        "helpful",
+        "friendly"
+      ],
+      "interests": [
+        "gaming",
+        "technology"
+      ],
+      "responseStyle": "casual"
+    }
+  },
+  "1410110973855006763": {
+    "enabled": false,
+    "channels": [],
+    "dedicatedChannel": null,
+    "settings": {
+      "responseChance": 100,
+      "cooldown": 1,
+      "mentionRequired": false
+    },
+    "personality": {
+      "name": "Assistant",
+      "traits": [
+        "helpful",
+        "friendly"
+      ],
+      "interests": [
+        "gaming",
+        "technology"
+      ],
+      "responseStyle": "casual"
+    }
+  }
+}
